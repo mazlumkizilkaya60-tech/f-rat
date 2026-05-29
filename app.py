@@ -18,7 +18,7 @@ from services.continue_watch import save_progress, list_items
 app = Flask(__name__)
 
 BASE_URL = os.getenv('IPTV_BASE_URL', 'http://hlmtv.shop:8080').rstrip('/')
-USER = os.getenv('IPTV_USER', 'mustafaozgur)
+USER = os.getenv('IPTV_USER', 'mustafaozgur')
 PASS = os.getenv('IPTV_PASS', '642612mD')
 
 session = requests.Session()
